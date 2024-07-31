@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 1150px;
+  height: 700px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+.box {
+  width: 800px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.row {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(33, 33, 33);
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.fa-heart {
+  color: white;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.fa-diamond {
+  color: white;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+p {
+  color: white;
+  margin-left: 33px;
+  padding-top: 15px;
+  font-size: 12px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+p:hover {
+  transition: 0.5s;
+  color: lightcoral;
+}
+
+.p1 {
+  color: white;
+  margin-left: 28px;
+  padding-top: 17px;
+  font-size: 12px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.p1:hover {
+  transition: 0.5s;
+  color: cadetblue;
+}
+
+.fa-spa {
+  color: white;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.fa-circle-nodes {
+  color: white;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.p2 {
+  color: white;
+  margin-left: 20px;
+  padding-top: 17px;
+  font-size: 12px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.p2:hover {
+  transition: 0.5s;
+  color: cadetblue;
+}
+
+.p3 {
+  color: white;
+  margin-left: 15px;
+  padding-top: 17px;
+  font-size: 12px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.p3:hover {
+  transition: 0.5s;
+  color: hotpink;
+}
+
+.fa-face-smile {
+  color: white;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.fa-mars-stroke {
+  color: white;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.p4 {
+  color: white;
+  margin-left: 38px;
+  padding-top: 17px;
+  font-size: 12px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.p4:hover {
+  transition: 0.5s;
+  color: dodgerblue;
+}
+
+.p7 {
+  color: white;
+  margin-left: 36px;
+  padding-top: 17px;
+  font-size: 12px;
+  transition: 0.5s;
+}
+.p7:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: chocolate;
+}
+
+.p5 {
+  color: white;
+  margin-left: 23px;
+  padding-top: 17px;
+  font-size: 12px;
+  transition: 0.5s;
+}
+.p5:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: green;
+}
+
+.fa-venus {
+  color: white;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.fa-headphones {
+  color: white;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.p6 {
+  color: white;
+  margin-left: 37px;
+  padding-top: 17px;
+  font-size: 12px;
+  transition: 0.5s;
+}
+.p6:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: red;
+}
+
+.fa-music {
+  color: white;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.fa-sun {
+  color: white;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.fa-arrows-up-down,
+.fa-exclamation,
+.fa-paragraph,
+.fa-bolt,
+.fa-rectangle-list,
+.fa-arrows-to-eye,
+.fa-arrow-up-long,
+.fa-arrow-down-long,
+.fa-arrow-right-long,
+.fa-arrow-left-long,
+.fa-arrows-left-right, .fa-megaport {
+  color: white;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.fa-angle-right,
+.fa-caret-right,
+.fa-caret-left,
+.fa-exclamation {
+  color: white;
+  font-size: 18px;
+  margin-left: 45px;
+  margin-top: 40px;
+}
+
+.fa-caret-up, .fa-caret-down {
+  color: white;
+  font-size: 20px;
+  margin-left: 45px;
+  padding-top: 35px;
+}
+
+.p8 {
+  color: white;
+  margin-left: 18px;
+  padding-top: 17px;
+  font-size: 12px;
+}/*# sourceMappingURL=main.css.map */
